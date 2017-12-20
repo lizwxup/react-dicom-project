@@ -1,0 +1,77 @@
+/* Base Application Styles */
+li{
+  list-style: none;
+}
+
+body {
+  color: #000;
+  background: #fff;
+  margin:0;
+  padding:0;
+}
+
+.index img {
+  margin: 40px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+  float:left;
+}
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}
+/*.onIndex{
+  margin:1000px auto;
+}*/
+.onIndexLeft{
+  float:left;
+  line-height: 40px;
+}
+.index{
+
+}
+.onIndex{
+
+  border-bottom:1px solid #1e1e1e;
+}
+.cheakList li{
+  display:inline-block;
+  margin-right:10px;
+}
+.onIndexTop{
+  width: 90%;
+  font-size: 20px;
+  padding-left: 5%;
+  margin-top: 20px;
+  display: flex;
+  display: inline-flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #1e1e1e;
+  padding-right: 5%;
+}
+.onIndexSearch{
+  margin:0 auto;
+  height:40px;
+  width:500px;
+  display:inline-block;
+  margin-left:15%;
+}
+.search_msg{
+  width: 84%;
+  height: 35px;
+}
+.imgYeo{
+  margin-top:-47px;
+}
+.checkListAll{
+  display: flex;
+  justify-content: space-between;
+  height:20px;
+  width:90%;
+}
